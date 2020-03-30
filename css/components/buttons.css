@@ -1,0 +1,15 @@
+.start_to_sell {
+  font-size: 12;
+  color: white;
+  padding: 6px 40px;
+  border-radius: 30px;
+  font-weight: bold;
+  background: linear-gradient(#6C1124, #5A0619);
+  transition: background 0.3s ease;
+  border: 1px solid #5A0619;
+}
+
+.buy_it:hover {
+  background: linear-gradient(#792637, #863C4B);
+  color: white;
+}

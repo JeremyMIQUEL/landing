@@ -1,0 +1,230 @@
+.cards{
+  width: 1152px;
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+.card_annonce_mini{
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  border: 1px solid rgb(230,230,230);
+}
+
+.card_annonce_mini img {
+  width: 200px;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+}
+
+.domaine {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 15px;
+  align-items: center;
+  color: #000000;
+}
+.domaine p {
+  margin: 4px auto;
+}
+
+.appellation {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  align-items: center;
+  color: #000000;
+}
+.appellation p {
+  margin: 4px auto;
+}
+
+
+.cru_cuvée {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 0,400;
+  font-size: 12px;
+  line-height: 15px;
+  align-items: center;
+  color: #000000;
+}
+.cru_cuvée p {
+  margin: 4px auto;
+}
+
+.région {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  align-items: center;
+  color: #000000;
+  padding-left: 6px;
+}
+.région p {
+  margin: 4px auto;
+}
+
+.pays {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  align-items: center;
+  color: #000000;
+  padding-left: 6px;
+}
+.pays p {
+  margin: 4px auto;
+}
+
+.millésime {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 15px;
+  align-items: center;
+  color: #000000;
+  padding-left: 6px;
+}
+.millésime p {
+  margin: 0px auto;
+}
+
+.année {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-style: bold;
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 15px;
+  align-items: center;
+  color: #000000;
+  padding-left: 6px;
+}
+.année p {
+  margin: 0px auto;
+}
+
+.format {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 15px;
+  align-items: center;
+  color: #000000;
+  padding-left: 6px;
+}
+.format p {
+  margin: 0px auto;
+}
+
+.contenance {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-style: bold;
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 15px;
+  align-items: center;
+  color: #000000;
+  padding-left: 6px;
+}
+.contenance p {
+  margin: 0px auto;
+}
+
+.price {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  align-items: center;
+  color: #334960;
+  padding-left: 6px;
+}
+.price p {
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+.pricing {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  align-items: center;
+  color: #334960;
+  padding-left: 6px;
+}
+.pricing p {
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+
+
+.cote {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 15px;
+  align-items: center;
+  color: #000000;
+  padding-left: 6px;
+}
+.cote p {
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+
+
+.coting {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-style: bold;
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 15px;
+  align-items: center;
+  color: #6C1124;
+  padding-left: 6px;
+}
+.coting p {
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+
+
+
+.flex-container {
+  display: flex;
+}
